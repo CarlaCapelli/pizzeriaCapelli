@@ -5,6 +5,7 @@ body {
   background-color: gray;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 img {
   margin: 20px;
@@ -48,8 +49,27 @@ h3.solid {
   font-size: 30px;
 }
 span {
+  font-weight: solid;
+  text-decoration: underline;
+}
+
+ul li span {
   font-style: italic;
+  text-decoration: none;
 }
 ul {
   color: gray;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  color: orange;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+div:target {
+  background-color: rgb(143, 68, 40);
+  color: orange;
 }
